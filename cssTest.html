@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <title>공설입 과제2</title>
+    <style>
+        body{min-width:800px;
+             min-height:800px;
+             max-width:1500px;
+             max-height:1500px;
+        }
+        #head {
+            background-color: pink;
+            width: 100%;
+            height: 90px;
+            padding-top: 10px;
+            text-align: center;
+        }
+        #link{float:left; 
+              background-color: yellowgreen; 
+              width:25%; 
+              height:700px;
+              }
+        .menu{padding-left:12.5%;}
+        a:link{color:blue;}
+        a:visited{color:red;}
+        a:hover {
+            color: green;
+            text-decoration: underline;
+        }
+        #main{
+            background-color:yellow;
+            width:75%;
+            height:700px;
+            float:right;
+        }
+        #copy{
+            background-color:brown;
+            color:white;
+            width:100%;
+            height:80px;
+            padding-top:20px;
+            text-align:center;
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <div id="head">
+        <h1 id="title">My Blog Page</h1>
+        </div>
+    <div id="link">
+        <h2>Links</h2>
+        <ul class="menu">
+            <li><a href="#1">W3C</a></li>
+            <li><a href="#2">MOZILLA</a></li>
+            <li><a href="#3">HTML Dogs</a></li>
+        </ul>
+        <img class="menu" src="temp.png" width="200" height="200" />
+        <p class="menu">홍길동</p>
+    </div>
+    <div id="main">
+        <h2 class="sub">Semantic Tags</h2>
+        <p>시멘틱 요소들은 브라우저에게 요소의 의미나 목적을 명확하게 알려주는 요소이다.</p>
+        <h2 class="sub">div와 span</h2>
+        <p>div는 divide의 약자로써 페이지를 논리적인 섹션으로 분리하는데 사용되는 태그이다. span 요소는 인라인 요소로써 텍스트를 위한 컨테이너로 사용할 수 있다.</p>
+    </div>
+    <div id="copy">
+        <p>Copyright (c) 2013 Hong</p>
+    </div>
+</body>
+</html>
